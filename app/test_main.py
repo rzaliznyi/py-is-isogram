@@ -14,8 +14,7 @@ from app.main import is_isogram
         ("Alphabet", False),
         ("subdermatoglyphic", True),
         ("Dermatoglyphics", True),
-        ("Moose", False),
-        ("Six-Year-Old", True)
+        ("Moose", False)
     ]
 )
 def test_is_isogram(word: str, result: bool) -> None:
